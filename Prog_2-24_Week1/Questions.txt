@@ -1,0 +1,8 @@
+Q: What is Data?
+A: A data can be a bunch of numbers or charactors that does not make sense.
+
+Q: What is imformation?
+A: Imformations are data that make sense, such as phone numbers, addresses or emails.
+
+Q: What is knowledge?
+A: Knowledge is typically gained through books, research, and delving into facts.
