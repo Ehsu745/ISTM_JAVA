@@ -2,11 +2,10 @@ public class devide
 {
 	public static int ft_devide(int a, int b)
 	{
-		System.out.print(a / b);
-		return(0);
+		return(a / b);
 	}
 	public static void main(String[] args)
 	{
-		ft_devide(50, 3);
+		System.out.print(ft_devide(50, 3));
 	}
 }
