@@ -4,3 +4,6 @@ There are two parts in this ISTM_JAVA coures
   2. Lab: 1092 INTRODUCTION TO SOFTWARE LAB. (Thu.)
 
 These courses are lectured in Feng Chia University-ISTM by AvinashShankaranarayanan
+
+Feng Chia University Link: https://www.fcu.edu.tw/
+ISTM Link: https://www.istm.fcu.edu.tw/index_tw.php
