@@ -4,18 +4,21 @@ public class swap
 {
 	public static void main(String[] args)
 	{
+		int[] a;
+		a = new int[2];
+
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number 1: ");
-		int a = sc.nextInt();
+		a[0] = sc.nextInt();
 
 		System.out.print("Enter number 2: ");
-		int b = sc.nextInt();
+		a[1] = sc.nextInt();
 		sc.close();
-		
-		a = a + b;
-		b = a - b;
-		a = a - b;
-		System.out.println("New number 1: " + a);
-		System.out.println("New number 2: " + b);
+
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.print("New number " + (i + 1) + " : ");
+			System.out.println(a[2 - (i + 1)]);
+		}
 	}
 }
