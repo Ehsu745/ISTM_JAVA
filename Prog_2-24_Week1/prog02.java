@@ -22,5 +22,7 @@ public class prog02
 		System.out.println(" /¯¯¯¯¯¯\\ ");
 		System.out.println("/        \\");
 		System.out.println("+--------+");
+
+		System.out.println("Hello~ I'm TA~");
 	}
 }
