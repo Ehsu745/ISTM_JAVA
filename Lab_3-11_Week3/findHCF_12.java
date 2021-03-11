@@ -5,8 +5,6 @@ public class findHCF_12
 {
 	public static void main(String[] args)
 	{
-		int val_a;
-		int val_b;
 		int temp;
 
 		Scanner sc = new Scanner(System.in);
@@ -16,22 +14,14 @@ public class findHCF_12
         int b = sc.nextInt();
 		sc.close();
 
-		val_a = a;
-		val_b = b;
-		while(b != 0)
-		{
-			temp = b;
-			b = a % b;
-			a = b;
-		}
-		System.out.println(val_a + " and " + val_b + " have the HCF of " + a + "!");
+		System.out.println("HCF: " + hcf(a, b));
 	}
 
-	public static int cpr(int a, int b)
+	private static int hcf(int m, int n)
 	{
-		if(a > b)
-			return(b);
-		else
-			return(a);
-	}
+        if(n == 0)
+            return(m);
+        else
+            return(hcf(n, m % n));
+    }
 }
