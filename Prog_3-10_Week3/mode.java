@@ -7,7 +7,6 @@ public class mode
 		Scanner sc = new Scanner(System.in);
         System.out.print("Enter numbers of data: ");
         int data = sc.nextInt();
-		float val;
 		int[] arr = {};
 		int[] a = {};
 
@@ -17,7 +16,6 @@ public class mode
 			System.out.print("Enter number " + (i + 1) +": ");
 			arr = Arrays.copyOf(arr, arr.length + 1);
 			arr[arr.length - 1] = sc.nextInt();
-			val += (float)arr[i];
 		}
 		sc.close();
 		a = Arrays.copyOf(arr, arr.length);
