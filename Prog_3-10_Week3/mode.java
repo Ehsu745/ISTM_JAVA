@@ -10,7 +10,6 @@ public class mode
 		int[] arr = {};
 		int[] a = {};
 
-		val = 0;
 		for(int i = 0; i < data; i++)
 		{
 			System.out.print("Enter number " + (i + 1) +": ");
