@@ -9,7 +9,7 @@ public class mode
         int data = sc.nextInt();
 		float val;
 		int[] arr = {};
-		int[] sed_arr = {};
+		int[] a = {};
 
 		val = 0;
 		for(int i = 0; i < data; i++)
@@ -20,15 +20,11 @@ public class mode
 			val += (float)arr[i];
 		}
 		sc.close();
-		sed_arr = Arrays.copyOf(arr, arr.length);
-		Arrays.sort(sed_arr);
+		a = Arrays.copyOf(arr, arr.length);
+		Arrays.sort(a);
         System.out.println("Origin input: " + Arrays.toString(arr));
-        System.out.println("Sorted input: " + Arrays.toString(sed_arr));
-        System.out.println("Mode: " + mode(sed_arr));
+        System.out.println("Sorted input: " + Arrays.toString(a));
 
-	}
-	public static int mode(int a[])
-	{
     	int maxValue;
 		int maxCount;
 
@@ -46,6 +42,6 @@ public class mode
 				maxValue = a[i];
 			}
 		}
-    return(maxValue);
+    	System.out.println(maxValue);
 	}
 }
