@@ -14,6 +14,7 @@ public class prog04_switchTrig
 		System.out.print("x:");
 		int x = sc.nextInt();
 		System.out.print("n:");
+		int n = sc.nextInt();
 		for(int i = 0; i < n; i++)
 			cos += ((double)pow(-1, i) / (double)fact(2 * i)) * (double)pow(x, 2 * i);
 		for(int i = 0; i < n; i++)

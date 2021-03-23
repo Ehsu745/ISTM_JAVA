@@ -36,6 +36,7 @@ public class prog02_sortT
 
 		if(flag)
 		{
+			System.out.println("Your input is Interger!");
 			System.out.println("Original: " + Arrays.toString(brr));
 			Arrays.sort(brr);
 			System.out.println("Accending: " + Arrays.toString(brr));
@@ -47,6 +48,7 @@ public class prog02_sortT
 		}
 		else
 		{
+			System.out.println("Your input is String!");
 			System.out.println("Original: " + Arrays.toString(arr));
 			Arrays.sort(arr);
 			System.out.println("Accending: " + Arrays.toString(arr));
