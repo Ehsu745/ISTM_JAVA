@@ -17,6 +17,8 @@ public class lab10_UsNtd
 
 		System.out.print("Enter 0 to convert USD to NTD and 1 for vice versa: ");
 		flag = sc.nextInt();
+
+//determine US and NTD
 		if(flag != 0 && flag != 1)
 		{
 			System.out.println("Invalid input...");
@@ -31,6 +33,7 @@ public class lab10_UsNtd
 		System.out.print("Enter the dollar amount: ");
 		mon = sc.nextFloat();
 
+//print results
 		if(flag == 0)
 			System.out.println(mon + " " + in + " is " + (mon / rate) + " " + out);
 		else

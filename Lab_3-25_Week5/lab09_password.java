@@ -9,13 +9,18 @@ public class lab09_password
 		char[] varr = {};
 		int u, l, d;
 
+//redo if something went wrong
 		while(true)
 		{
+
+//scan password from users
 			u = l = d = 0;
 			System.out.print("Enter new password: ");
 			Scanner sc = new Scanner(System.in);
 			str = sc.nextLine();
 
+
+//count the Uppercase, Loweredcase, number digits in the user input
 			for(int i = 0; i < str.length(); i++)
 			{
 				varr = Arrays.copyOf(varr, varr.length + 1);
@@ -30,6 +35,8 @@ public class lab09_password
 				else
 					continue;
 			}
+
+//if any of Uppercase, Loweredcase, number digits is not enough stop and redo
 			if(u == 0 || l == 0 || d == 0)
 			{
 				System.out.println("Password should at least contain one Uppercase,	Loweredcase and a number");
@@ -42,6 +49,8 @@ public class lab09_password
 				varr = Arrays.copyOf(varr, 0);
 				continue;
 			}
+
+//password success, congradulations!
 			else
 			{
 				System.out.print("Success! Your new password is: ");
