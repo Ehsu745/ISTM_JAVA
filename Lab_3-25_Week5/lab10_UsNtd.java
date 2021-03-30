@@ -35,7 +35,7 @@ public class lab10_UsNtd
 
 //print results
 		if(flag == 0)
-			System.out.println(mon + " " + in + " is " + (mon / rate) + " " + out);
+			System.out.println(mon + " " + in + " is " + (mon * rate) + " " + out);
 		else
 			System.out.println(mon + " " + in + " is " + (mon / rate) + " " + out);
 	}
