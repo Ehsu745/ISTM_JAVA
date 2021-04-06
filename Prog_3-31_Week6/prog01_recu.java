@@ -8,6 +8,7 @@ public class prog01_recu
 {
 	public static void main(String[] args)
 	{
+		int i = 0;
 //do the command n timese
 		while(true)
 		{
